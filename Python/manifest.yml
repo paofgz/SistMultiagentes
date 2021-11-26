@@ -1,0 +1,4 @@
+---
+applications:
+ - name: tc2008b
+   random-route: true

@@ -19,7 +19,7 @@ class TrafficModel(Model):
         N = 20, 
         height = 30, 
         width = 30,
-        M = 20):
+        M = 40):
         self.num_cars = N
         self.num_lights = 4
         self.found = 0

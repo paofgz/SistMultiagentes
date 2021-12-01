@@ -1,8 +1,7 @@
-from flask import Flask, render_template, request, jsonify
-import json, logging, os, atexit
-from http.server import BaseHTTPRequestHandler, HTTPServer
+from flask import Flask, jsonify
+import json, os
 
-from model import TrafficModel
+from model import *
 
 app = Flask(__name__, static_url_path='')
 model = TrafficModel()
